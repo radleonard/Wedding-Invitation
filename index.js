@@ -7,10 +7,13 @@ const port = 8080;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('index.ejs', {
-    guestName : 'Leonard Raditya',
-    groom : 'Sondra',
-    bride : 'Felita'
+  // res.render('index.ejs', {
+    // guestName : 'Leonard Raditya',
+  //   groom : 'Sondra',
+  //   bride : 'Felita'
+  // })
+  res.render('playGroundLeo.ejs', {
+    welcoming : 'Welcome to your Playground Testing!'
   })
 });
 

@@ -7,14 +7,15 @@ const port = 8080;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  // res.render('index.ejs', {
-    // guestName : 'Leonard Raditya',
-  //   groom : 'Sondra',
-  //   bride : 'Felita'
-  // })
-  res.render('playGroundLeo.ejs', {
-    welcoming : 'Welcome to your Playground Testing!'
+  res.render('index.ejs', {
+    guestName : 'Leonard Raditya',
+    groom : 'Sondra',
+    bride : 'Felita',
+    iconPath : 'images/LogoLIONARE.png'
   })
+  // res.render('playGroundLeo.ejs', {
+  //   welcoming : 'Welcome to your Playground Testing!'
+  // })
 });
 
 // gausah buat button pake yang move ke page lain

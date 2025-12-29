@@ -1,0 +1,323 @@
+body {
+    /* background: linear-gradient(135deg, #b67412, #fadcc4, #271a01); */
+    background-image: url(/public/images/5637278379409408.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 90%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity:85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 10px auto;
+    /* visibility: hidden; */
+}
+
+.container {
+    text-align: center;
+    /* font-family: 'Georgia', serif; */
+    color: #333;
+    margin: 40px auto;
+}
+
+.btn {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  .formbold-main-wrapper {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+
+  .formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 22px;
+  }
+  .formbold-input-flex > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .formbold-textarea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #DDE3EC;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074D;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input::placeholder {
+    color: #536387;
+  }
+  .formbold-form-input:focus {
+    border-color: #6A64F1;
+  }
+  .formbold-form-label {
+    color: #07074D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .formbold-form-input:focus + .formbold-form-label {
+    color: #6A64F1;
+  }
+
+  .formbold-input-file {
+    margin-top: 30px;
+  }
+  .formbold-input-file input[type="file"] {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    z-index: -1;
+  }
+  .formbold-input-file .formbold-input-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+
+  .formbold-filename-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 22px;
+  }
+  .formbold-filename {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    color: #536387;
+  }
+  .formbold-filename svg {
+    cursor: pointer;
+  }
+
+  .formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6A64F1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+
+  /* dibawah ini (177 - 288) dari formbold buat form */
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  #rsvp {
+    types: flex;
+    border-color: #070707;
+    border-style: ;
+    /* visibility: hidden; */
+  }
+  .formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 80%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: 1px;
+    font-weight: 600;
+    background-color: #6a64f1;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 80%;
+  }
+  .formbold-radio {
+    width: 20px;
+    height: 20px;
+  }
+  .formbold-radio-label {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 12px;
+    color: #070707;
+    padding-right: 20px;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 40%;
+    }
+  }
+
+  
+  /* dibawah untuk pop up nya */
+  .modal {
+      display: none; 
+      position:fixed; 
+      z-index: 1; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      background-color: rgba(0, 0, 0, 0.2); 
+  }
+  .modal-content {
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 442px;
+    height: 842px;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

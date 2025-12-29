@@ -1,33 +1,42 @@
 <%- include('partials/header') %>
 
 
-<div class="container">
-    <h3 style="text-align: left;">Hello, <%= guestName %></h3>
-    <main class="px-3">
+<div>
+    <h3>Hello, <%= guestName %></h3>
 
-        <p style="text-align: left;">You're invited to <br></p>
-        <p>The Wedding of</p>
-        
-        <h2><%= groom %> & <%= bride %></h2>
+    <main >
+      <p >You're invited to <br></p>
+      <p>The Wedding of</p>
+      
+      <h2><%= groom %> & <%= bride %></h2>
 
-        <p class="lead">
-            <button class="btn">Open Invitation</button>
-            <!-- <form action="/submit" method="post" class="btn">
-                <input type="submit" value="Open Invitation">
-            </form> -->
-        </p>
+      <p >
+        <button>Open Invitation</button>
+      </p>
     </main>
+
+
+     <!-- The Modal/Pop-up Structure -->
+    <div id="myModal" class="">
+      <!-- Modal content -->
+      <div class="">
+        <span class="">&times;</span>
+        
+      </div>
+    </div>
+    
+
 </div>
 
-<div class="container" style="background-image: url('/5637278379409408.jpg');">
-<!-- terakhir ini background masih belum muncul -->
-</div>
+<!-- <div class="container" style="background-image: url('/5637278379409408.jpg');">
+terakhir ini background masih belum muncul
+</div> -->
 
 <div class="formbold-main-wrapper">
   <!-- Author: FormBold Team -->
   <!-- Learn More: https://formbold.com -->
   <div class="formbold-form-wrapper">
-    <form action="https://formbold.com/s/FORM_ID" method="POST">
+    <form action="" method="POST">
         <div class="formbold-input-flex">
           <div>
               <input
